@@ -1,11 +1,11 @@
 .footer {
-  position: fixed;
-  bottom: 0;
+  font-weight: 600;
+  size: 18px;
   padding: 10px;
-  translate: 50%;
+  display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
-  display: flex;
   gap: 24px;
 }
 
