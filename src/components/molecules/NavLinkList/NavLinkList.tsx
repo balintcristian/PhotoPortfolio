@@ -1,5 +1,4 @@
 import NavLink from "@/components/atoms/NavLink/NavLink";
-
 type NavLinkData = {
   href: string;
   text: string;
@@ -11,8 +10,8 @@ type NavLinkListProps = {
 const NavLinkList = ({ data }: NavLinkListProps) => {
   return (
     <ul>
-      {data?.map((item) => (
-        <NavLink href={item?.href} text={item?.text} />
+      {data?.map((item, idx) => (
+        <NavLink href={item?.href} text={item?.text} key={idx} />
       ))}
     </ul>
   );
