@@ -1,13 +1,13 @@
-import data from "../../../../public/assets/json/NavLinks.json";
-
-import NavLinkList from "@/components/molecules/NavLinkList/NavLinkList";
-
 import styles from "./Navbar.module.scss";
 
 const Navbar = () => {
   return (
     <div className={styles.navbar}>
-      <NavLinkList data={data} />
+      <ul>
+        <a href="/">Home</a>
+        <a href="/about-me">About me</a>
+        <a href="/contact">Contact</a>
+      </ul>
     </div>
   );
 };
