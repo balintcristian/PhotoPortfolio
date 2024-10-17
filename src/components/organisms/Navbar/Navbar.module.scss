@@ -6,12 +6,12 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-}
-.navbar ul {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 2em;
-  list-style: none;
+  ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    list-style: none;
+  }
 }
