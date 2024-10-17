@@ -13,6 +13,7 @@
   display: flex;
   align-items: center;
   gap: 8px;
+  padding: 3px;
 }
 a.primary {
   background: var(--foreground);
@@ -28,17 +29,9 @@ a.secondary {
   flex-shrink: 0;
 }
 @media (hover: hover) and (pointer: fine) {
-  a.primary:hover {
-    background: var(--button-primary-hover);
-    border-color: transparent;
-  }
-
-  a.secondary:hover {
-    background: var(--button-secondary-hover);
-    border-color: transparent;
-  }
-
   .footer a:hover {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
     text-decoration: underline;
     text-underline-offset: 4px;
   }

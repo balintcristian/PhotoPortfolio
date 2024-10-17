@@ -1,17 +1,19 @@
-.page {
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: var(--font-geist-sans);
   --gray-rgb: 0, 0, 0;
   --gray-alpha-200: rgba(var(--gray-rgb), 0.08);
   --gray-alpha-100: rgba(var(--gray-rgb), 0.05);
-
+}
+.page {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-items: center;
   min-height: 70svh;
-  max-height: 96svh;
-  font-family: var(--font-geist-sans);
 }
-
 @media (prefers-color-scheme: dark) {
   .page {
     --gray-rgb: 255, 255, 255;
