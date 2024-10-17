@@ -1,5 +1,3 @@
-import React from "react";
-
 type NavLinkProps = {
   href: string;
   text: string;

@@ -3,10 +3,9 @@
   justify-content: center;
   columns: 300px;
   padding: 30px;
-}
 
-.list img:hover {
-  border: solid 3px white;
-  transform: scale(1.2);
-  z-index: 1.2;
+  img:hover {
+    border: solid 3px white;
+    scale: 1.2;
+  }
 }

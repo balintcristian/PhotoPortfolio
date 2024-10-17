@@ -1,5 +1,4 @@
 import NavLink from "@/components/atoms/NavLink/NavLink";
-import React from "react";
 
 type NavLinkData = {
   href: string;
