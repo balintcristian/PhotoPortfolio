@@ -81,5 +81,15 @@ const Gallery = () => {
     </div>
   );
 };
+// feature developed on wrong branch, usable after main pulls changes from Atomization branch, mistake on commit:669721eb13066f1284653959651fc3411ac1de1d
+// <GalleryImage src={`/assets/images/a.jpg`} description={"test"} />
+// <GalleryImage src={`/assets/images/b.jpg`} description={""} />
+// <GalleryImage src={`/assets/images/c.jpg`} description={"test3"} />
+// <GalleryImage src={`/assets/images/d.jpg`} description={""} />
+// <GalleryImage src={`/assets/images/e.jpg`} description={""} />
+// <GalleryImage src={`/assets/images/f.jpg`} description={""} />
+// <GalleryImage src={`/assets/images/g.jpg`} description={"salut ma numesc fotograful"} />
+// <GalleryImage src={`/assets/images/h.jpg`} description={""} />
+// <GalleryImage src={`/assets/images/i.jpg`} description={""} />
 
 export default Gallery;
