@@ -1,5 +1,5 @@
 import Footer from "@/components/Footer/Footer";
-import Navbar from "@/components/Navbar/Navbar";
+import Navbar from "@/components/organisms/Navbar/Navbar";
 
 import localFont from "next/font/local";
 import "./globals.css";
