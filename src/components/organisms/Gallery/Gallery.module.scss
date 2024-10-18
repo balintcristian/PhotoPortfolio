@@ -1,0 +1,14 @@
+.list {
+  align-items: center;
+  justify-content: center;
+  columns: 300px;
+  padding: 30px;
+
+  img:hover {
+    border: solid 3px white;
+    scale: 1.2;
+    p {
+      font-size: large;
+    }
+  }
+}

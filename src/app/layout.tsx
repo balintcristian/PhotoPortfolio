@@ -1,11 +1,16 @@
-import Footer from "@/components/Footer/Footer";
+import type { Metadata } from "next";
+import localFont from "next/font/local";
+
+import Footer from "@/components/organisms/Footer/Footer";
 import Navbar from "@/components/organisms/Navbar/Navbar";
 
-import localFont from "next/font/local";
 import "./globals.css";
 import styles from "./page.module.scss";
-import type { Metadata } from "next";
 
+export const metadata: Metadata = {
+  title: "Dashboard",
+  description: "Landing page of my photo gallery",
+};
 const geistSans = localFont({
   src: "../static/fonts/GeistVF.woff",
   variable: "--font-geist-sans",
@@ -16,11 +21,6 @@ const geistMono = localFont({
   variable: "--font-geist-mono",
   weight: "100 900",
 });
-
-export const metadata: Metadata = {
-  title: "Dashboard",
-  description: "Landing page of my photo gallery",
-};
 
 export default function RootLayout({
   children,
