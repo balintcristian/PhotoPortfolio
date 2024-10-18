@@ -1,5 +1,7 @@
 import NavLink from "@/components/atoms/NavLink/NavLink";
 
+import styles from "./NavLinkList.module.scss";
+
 type NavLinkData = {
   href: string;
   text: string;
