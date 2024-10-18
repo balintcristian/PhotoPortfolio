@@ -1,23 +1,23 @@
-import FooterIconLink from "@/components/molecules/FooterIconLink/FooterIconLink";
+import IconLink from "@/components/molecules/IconLink/IconLink";
 
 import styles from "./Footer.module.scss";
 
 const Footer = () => {
   return (
     <footer className={styles.footer}>
-      <FooterIconLink
+      <IconLink
         url={"https://instagram.com/ok"}
         text={"Instagram Page"}
         IconAlt={"Instagram Icon"}
         IconSrc={"https://nextjs.org/icons/file.svg"}
       />
-      <FooterIconLink
+      <IconLink
         url={"https://facebook.com/ok"}
         text={"Facebook Page"}
         IconAlt={"Facebook Icon"}
         IconSrc={"https://nextjs.org/icons/window.svg"}
       />
-      <FooterIconLink
+      <IconLink
         url={"/contact"}
         text={"Get in touch with me"}
         IconAlt={"Contact Icon"}
