@@ -1,4 +1,4 @@
-import React from "react";
+import styles from "./Navlink.module.scss";
 
 type NavLinkProps = {
   href: string;
