@@ -5,15 +5,15 @@ import styles from "./Gallery.module.scss";
 const Gallery = () => {
   return (
     <div className={styles.list}>
-      <GalleryImage src={`/a.jpg`} description={"test"} />
-      <GalleryImage src={`/b.jpg`} />
-      <GalleryImage src={`/c.jpg`} description={"test3"} />
-      <GalleryImage src={`/d.jpg`} />
-      <GalleryImage src={`/e.jpg`} />
-      <GalleryImage src={`/f.jpg`} />
-      <GalleryImage src={`/g.jpg`} description={"salut ma numesc fotograful"} />
-      <GalleryImage src={`/h.jpg`} />
-      <GalleryImage src={`/i.jpg`} />
+      <GalleryImage src={`/assets/images/a.jpg`} description={"test"} />
+      <GalleryImage src={`/assets/images/b.jpg`} />
+      <GalleryImage src={`/assets/images/c.jpg`} description={"test3"} />
+      <GalleryImage src={`/assets/images/d.jpg`} />
+      <GalleryImage src={`/assets/images/e.jpg`} />
+      <GalleryImage src={`/assets/images/f.jpg`} />
+      <GalleryImage src={`/assets/images/g.jpg`} description={"salut ma numesc fotograful"} />
+      <GalleryImage src={`/assets/images/h.jpg`} />
+      <GalleryImage src={`/assets/images/i.jpg`} />
     </div>
   );
 };
