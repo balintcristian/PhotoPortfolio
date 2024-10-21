@@ -9,7 +9,7 @@ const GalleryImage = ({ src, description }: GalleryImageProps) => {
   return (
     <div className={styles.GalleryImage}>
       <img src={src} alt={"nature"} sizes="100vw" />
-      {description && <p>{description}</p>}
+      {description && <p className={styles.description}>{description}</p>}
     </div>
   );
 };
