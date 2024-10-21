@@ -1,19 +1,13 @@
 import NavLink from "@/components/atoms/NavLink/NavLink";
 
+import { navLinks } from "@/static/json/Links.json";
+
 import styles from "./NavLinkList.module.scss";
 
-type NavLinkData = {
-  href: string;
-  text: string;
-};
-
-type NavLinkListProps = {
-  NavLinkData: NavLinkData[];
-};
-const NavLinkList = ({ NavLinkData }: NavLinkListProps) => {
+const NavLinkList = () => {
   return (
     <ul>
-      {NavLinkData?.map((item, idx) => (
+      {navLinks?.map((item, idx) => (
         <NavLink href={item?.href} text={item?.text} key={idx} />
       ))}
     </ul>
