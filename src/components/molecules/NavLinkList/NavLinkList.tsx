@@ -8,12 +8,12 @@ type NavLinkData = {
 };
 
 type NavLinkListProps = {
-  data: NavLinkData[];
+  NavLinkData: NavLinkData[];
 };
-const NavLinkList = ({ data }: NavLinkListProps) => {
+const NavLinkList = ({ NavLinkData }: NavLinkListProps) => {
   return (
     <ul>
-      {data?.map((item, idx) => (
+      {NavLinkData?.map((item, idx) => (
         <NavLink href={item?.href} text={item?.text} key={idx} />
       ))}
     </ul>
