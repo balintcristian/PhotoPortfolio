@@ -4,8 +4,8 @@ import localFont from "next/font/local";
 import Footer from "@/components/organisms/Footer/Footer";
 import Navbar from "@/components/organisms/Navbar/Navbar";
 
-import "./globals.scss";
-import styles from "./page.module.scss";
+import "./globals.css";
+import styles from "./page.module.css";
 
 export const metadata: Metadata = {
   title: "Dashboard",

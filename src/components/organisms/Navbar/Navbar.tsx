@@ -1,6 +1,6 @@
 import NavLinkList from "@/components/molecules/NavLinkList/NavLinkList";
 
-import styles from "./Navbar.module.scss";
+import styles from "./Navbar.module.css";
 
 const Navbar = () => {
   return (
