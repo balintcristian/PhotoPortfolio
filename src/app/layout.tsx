@@ -4,7 +4,7 @@ import localFont from "next/font/local";
 import Footer from "@/components/organisms/Footer/Footer";
 import Navbar from "@/components/organisms/Navbar/Navbar";
 
-import "./globals.css";
+import "./globals.scss";
 import styles from "./page.module.scss";
 
 export const metadata: Metadata = {

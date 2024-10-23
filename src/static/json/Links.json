@@ -2,7 +2,7 @@
   "navLinks": [
     { "href": "/", "text": "Home" },
     { "href": "/about-me", "text": "About me" },
-    { "href": "/contact", "text": "Contact me" }
+    { "href": "/contact", "text": "Contact" }
   ],
   "footerLinks": [
     { "href": "https://instagram.com/domnul", "text": "Instagram" },

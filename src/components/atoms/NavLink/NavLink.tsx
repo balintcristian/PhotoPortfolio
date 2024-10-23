@@ -6,7 +6,11 @@ type NavLinkProps = {
 };
 
 const NavLink = ({ href, text }: NavLinkProps) => {
-  return <a href={href}>{text}</a>;
+  return (
+    <a className={styles.navLink} href={href}>
+      {text}
+    </a>
+  );
 };
 
 export default NavLink;

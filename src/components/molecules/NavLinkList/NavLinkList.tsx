@@ -4,9 +4,12 @@ import { navLinks } from "@/static/json/Links.json";
 
 import styles from "./NavLinkList.module.scss";
 
-const NavLinkList = () => {
+type NavLinkListProps = {
+  className?: "w300" | "w600" | "w900";
+};
+const NavLinkList = ({ className }: NavLinkListProps) => {
   return (
-    <ul>
+    <ul className={`${styles.list} ${styles[`${className}`]}`}>
       {navLinks?.map((item, idx) => (
         <NavLink href={item?.href} text={item?.text} key={idx} />
       ))}
