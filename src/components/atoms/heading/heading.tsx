@@ -1,4 +1,4 @@
-import styles from "./heading.module.scss";
+import styles from "./heading.module.css";
 type HeadingProps = {
   headingSize: number;
   text: string;
@@ -23,7 +23,3 @@ const Heading = ({ headingSize, text }: HeadingProps) => {
 };
 
 export default Heading;
-
-/*
-className={styles[`${className}`]}
-*/

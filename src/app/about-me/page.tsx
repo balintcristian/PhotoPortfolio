@@ -1,5 +1,5 @@
-import Heading from "@/components/atoms/heading/heading";
-import Paragraph from "@/components/atoms/paragraph/paragraph";
+import Heading from "@/components/atoms/Heading/Heading";
+import Paragraph from "@/components/atoms/Paragraph/Paragraph";
 import styles from "./page.module.scss";
 // type AboutMeProps = {};
 

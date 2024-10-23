@@ -2,7 +2,7 @@ import NavLink from "@/components/atoms/NavLink/NavLink";
 
 import { navLinks } from "@/static/json/Links.json";
 
-import styles from "./NavLinkList.module.scss";
+import styles from "./NavLinkList.module.css";
 
 type NavLinkListProps = {
   className?: "w300" | "w600" | "w900";
