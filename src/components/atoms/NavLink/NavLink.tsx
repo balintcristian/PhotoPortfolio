@@ -1,4 +1,4 @@
-import styles from "./Navlink.module.scss";
+import styles from "./Navlink.module.css";
 
 type NavLinkProps = {
   href: string;
