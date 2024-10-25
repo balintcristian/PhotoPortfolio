@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import styles from "./Icon.module.scss";
+import styles from "./Icon.module.css";
 
 type IconProps = {
   src: string;

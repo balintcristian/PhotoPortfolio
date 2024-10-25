@@ -1,6 +1,6 @@
 import GalleryImage from "@/components/molecules/GalleryImage/GalleryImage";
 
-import styles from "./Gallery.module.scss";
+import styles from "./Gallery.module.css";
 
 const Gallery = () => {
   return (

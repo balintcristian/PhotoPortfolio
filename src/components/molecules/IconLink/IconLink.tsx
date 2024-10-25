@@ -1,6 +1,6 @@
 import Icon from "@/components/atoms/Icon/Icon";
 
-import styles from "./IconLink.module.scss";
+import styles from "./IconLink.module.css";
 
 type IconLinkProps = {
   url: string;
