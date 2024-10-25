@@ -1,7 +1,6 @@
 import Heading from "@/components/atoms/Heading/Heading";
 import Paragraph from "@/components/atoms/Paragraph/Paragraph";
-import styles from "./page.module.scss";
-// type AboutMeProps = {};
+import styles from "./page.module.css";
 
 const AboutMe = () => {
   return (

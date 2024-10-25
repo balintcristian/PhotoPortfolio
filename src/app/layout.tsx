@@ -11,15 +11,42 @@ export const metadata: Metadata = {
   title: "Dashboard",
   description: "Landing page of my photo gallery",
 };
-const geistSans = localFont({
-  src: "../static/fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
+
+const playFairItalic = localFont({
+  src: "../static/fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf",
+  variable: "--font-play-fair-italic",
+  weight: "300 900",
+  style: "italic",
 });
-const geistMono = localFont({
-  src: "../static/fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
+const playFair = localFont({
+  src: "../static/fonts/PlayfairDisplay-VariableFont_wght.ttf",
+  variable: "--font-play-fair",
+  weight: "300 900",
+});
+const hind = localFont({
+  src: [
+    {
+      path: "../static/fonts/Hind-Light.ttf",
+      weight: "300",
+    },
+    {
+      path: "../static/fonts/Hind-Regular.ttf",
+      weight: "400",
+    },
+    {
+      path: "../static/fonts/Hind-Medium.ttf",
+      weight: "500",
+    },
+    {
+      path: "../static/fonts/Hind-SemiBold.ttf",
+      weight: "600",
+    },
+    {
+      path: "../static/fonts/Hind-Bold.ttf",
+      weight: "700",
+    },
+  ],
+  variable: "--font-hind",
 });
 
 export default function RootLayout({
@@ -34,8 +61,8 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
         <title>home</title>
       </head>
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        <div className={styles.main}>
+      <body className={`${playFair.variable} ${hind.variable}`}>
+        <div className={`${styles.main}`}>
           <Navbar />
           {children}
           <Footer />
