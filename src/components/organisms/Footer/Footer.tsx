@@ -1,10 +1,10 @@
 import IconLink from "@/components/molecules/IconLink/IconLink";
-
 import styles from "./Footer.module.css";
+import { playFair } from "@/app/layout";
 
 const Footer = () => {
   return (
-    <footer className={styles.footer}>
+    <footer className={`${styles.footer} ${playFair.className}`}>
       <IconLink
         url={"https://instagram.com/domnul"}
         text={"Instagram"}

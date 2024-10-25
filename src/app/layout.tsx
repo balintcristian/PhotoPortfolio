@@ -12,37 +12,35 @@ export const metadata: Metadata = {
   description: "Landing page of my photo gallery",
 };
 
-const playFairItalic = localFont({
-  src: "../static/fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf",
+export const playFairItalic = localFont({
+  src: "../../public/assets/fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf",
   variable: "--font-play-fair-italic",
-  weight: "300 900",
   style: "italic",
 });
-const playFair = localFont({
-  src: "../static/fonts/PlayfairDisplay-VariableFont_wght.ttf",
+export const playFair = localFont({
+  src: "../../public/assets/fonts/PlayfairDisplay-VariableFont_wght.ttf",
   variable: "--font-play-fair",
-  weight: "300 900",
 });
-const hind = localFont({
+export const hind = localFont({
   src: [
     {
-      path: "../static/fonts/Hind-Light.ttf",
+      path: "../../public/assets/fonts/Hind-Light.ttf",
       weight: "300",
     },
     {
-      path: "../static/fonts/Hind-Regular.ttf",
+      path: "../../public/assets/fonts/Hind-Regular.ttf",
       weight: "400",
     },
     {
-      path: "../static/fonts/Hind-Medium.ttf",
+      path: "../../public/assets/fonts/Hind-Medium.ttf",
       weight: "500",
     },
     {
-      path: "../static/fonts/Hind-SemiBold.ttf",
+      path: "../../public/assets/fonts/Hind-SemiBold.ttf",
       weight: "600",
     },
     {
-      path: "../static/fonts/Hind-Bold.ttf",
+      path: "../../public/assets/fonts/Hind-Bold.ttf",
       weight: "700",
     },
   ],
@@ -61,7 +59,7 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
         <title>home</title>
       </head>
-      <body className={`${playFair.variable} ${hind.variable}`}>
+      <body className={`${styles.playFair}`}>
         <div className={`${styles.main}`}>
           <Navbar />
           {children}
