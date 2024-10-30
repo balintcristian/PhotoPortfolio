@@ -1,18 +1,14 @@
 import Icon from "@/components/atoms/Icon/Icon";
 
-import styles from "./IconLink.module.css";
-
 type IconLinkProps = {
   url: string;
   text: string;
-  IconAlt: string;
-  IconSrc: string;
+  name: "facebook" | "instagram" | "phone";
 };
-
-const IconLink = ({ url, text, IconAlt, IconSrc }: IconLinkProps) => {
+const IconLink = ({ url, text, name }: IconLinkProps) => {
   return (
     <a href={url} target="_blank" rel="noopener noreferrer">
-      <Icon src={IconSrc} alt={IconAlt} />
+      <Icon name={`${name}`} width={16} height={16} />
       {text}
     </a>
   );

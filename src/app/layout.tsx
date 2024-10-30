@@ -1,6 +1,6 @@
+import React from "react";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
-
 import Footer from "@/components/organisms/Footer/Footer";
 import Navbar from "@/components/organisms/Navbar/Navbar";
 

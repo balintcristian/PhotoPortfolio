@@ -1,14 +1,23 @@
 import Image from "next/image";
 
 import styles from "./Icon.module.css";
+import Phone from "@/components/atoms/svg/phone-solid.svg";
+import Facebook from "@/components/atoms/svg/facebook-brands-solid.svg";
+import Instagram from "@/components/atoms/svg/instagram-brands-solid.svg";
 
-type IconProps = {
-  src: string;
-  alt: string;
+const IconTypes = {
+  phone: Phone,
+  facebook: Facebook,
+  instagram: Instagram,
 };
 
-const Icon = ({ src, alt }: IconProps) => {
-  return <Image aria-hidden src={src} alt={alt} width={16} height={16} />;
+type IconProps = {
+  name: keyof typeof IconTypes;
+  [key: string]: any;
+};
+const Icon = ({ name, ...props }: IconProps) => {
+  let Icon = IconTypes[name];
+  return <Icon {...props} />;
 };
 
 export default Icon;
